@@ -45,6 +45,7 @@
 #include "DemoPowerSupply.h"
 #include "DigilentOscilloscope.h"
 #include "DSLabsOscilloscope.h"
+#include "HMOOscilloscope.h"
 #include "KeysightDCA.h"
 #include "LeCroyOscilloscope.h"
 #include "LeCroyFWPOscilloscope.h"
@@ -229,6 +230,7 @@ void DriverStaticInit()
 	AddDriverClass(DigilentOscilloscope);
 	AddDriverClass(DSLabsOscilloscope);
 	AddDriverClass(KeysightDCA);
+	AddDriverClass(HMOOscilloscope);
 	AddDriverClass(PicoOscilloscope);
 	AddDriverClass(RigolOscilloscope);
 	AddDriverClass(RohdeSchwarzOscilloscope);

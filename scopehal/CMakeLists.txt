@@ -166,6 +166,7 @@ set(SCOPEHAL_SOURCES
 	DigilentOscilloscope.cpp
 	DSLabsOscilloscope.cpp
 	GWInstekGPDX303SPowerSupply.cpp
+	HMOOscilloscope.cpp
 	KeysightDCA.cpp
 	LeCroyOscilloscope.cpp
 	LeCroyFWPOscilloscope.cpp
